@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
