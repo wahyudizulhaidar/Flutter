@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.wahyuzul.flutter.databinding.ActivityMainBinding
+import com.wahyuzul.flutter.homereminder.HomeReminder
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         }
         setSupportActionBar(binding.toolbar)
 
-        supportFragmentManager.findFragmentById(R.id.fragment_main_activity)
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_main_activity, HomeReminder())
+                .commit()
+        }
     }
 }

@@ -31,7 +31,8 @@
                 android:text="Sikat Gigi"
                 android:textSize="16sp"
                 android:gravity="center"
-                android:paddingTop="8dp"/>
+                android:paddingTop="8dp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"

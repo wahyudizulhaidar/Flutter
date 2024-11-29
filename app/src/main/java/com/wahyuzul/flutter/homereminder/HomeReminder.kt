@@ -1,12 +1,11 @@
-package com.wahyuzul.flutter
+package com.wahyuzul.flutter.homereminder
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.wahyuzul.flutter.databinding.FragmentHomeReminderBinding
-
 
 class HomeReminder : Fragment() {
     private var _binding : FragmentHomeReminderBinding? = null
