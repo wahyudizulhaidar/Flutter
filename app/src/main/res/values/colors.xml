@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="royal_blue">#3A5FD9</color>
+    <color name="primary_text_color">#000000</color>
+    <color name="secondary_text_color">#666666</color>
+    <color name="radio_button_color">#3A5FD9</color>
+    <color name="button_not_check">#DFE5EE</color>"
 </resources>

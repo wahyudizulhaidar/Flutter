@@ -22,4 +22,14 @@
     <!-- ItemReminder -->
     <string name="name_reminder">Sikat Gigi</string>
     <string name="time_reminder">07.00</string>
+    <string name="select_category">Pilih Kategori</string>
+    <string name="popup_button">Simpan</string>
+    <string name="menu_popup">Menu Text</string>
+    <string name="reminder_toothbrush">Pengingat Sikat Gigi</string>
+
+    <!--  Popup Menu Repeat  -->
+    <string name="repeat_day">Setiap Hari</string>
+    <string name="repeat_week">Setiap Minggu</string>
+    <string name="repeat_month">Setiap Bulan</string>
+    <string name="repeat_year">Setiap Tahun</string>
 </resources>

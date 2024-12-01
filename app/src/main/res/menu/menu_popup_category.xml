@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toothbrush"
+        android:icon="@drawable/ic_sikat_gigi"
+        android:title="@string/reminder_toothbrush" />
+
+    <item
+        android:id="@+id/medicine"
+        android:icon="@drawable/ic_minum_obat"
+        android:title="@string/reminder_medicine" />
+
+    <item
+        android:id="@+id/clinic"
+        android:icon="@drawable/ic_klinik"
+        android:title="@string/reminder_clinic" />
+
+</menu>

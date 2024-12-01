@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.wahyuzul.flutter.databinding.ActivityMainBinding
-import com.wahyuzul.flutter.homereminder.HomeReminder
+import com.wahyuzul.flutter.presentation.homereminder.HomeReminder
 
 class MainActivity : AppCompatActivity() {
 
